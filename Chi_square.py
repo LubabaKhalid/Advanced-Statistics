@@ -12,7 +12,7 @@ width = 0.35  # width of the bars
 # Create the bar chart
 fig, ax = plt.subplots(figsize=(8, 6))
 bars1 = ax.bar(x - width / 2, medication, width, label='Medication', color='skyblue')
-bars2 = ax.bar(x + width / 2, no_medication, width, label='No Medication', color='salmon')
+bars2 = ax.bar(x + width / 2, no_medication, width, label='No Medication', color='orange')
 
 # Add labels, title, and legend
 ax.set_xlabel('Sleep Disorder Diagnosis', fontsize=12)
