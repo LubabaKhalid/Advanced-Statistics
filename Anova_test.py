@@ -50,7 +50,7 @@ mean_values = [np.mean(screen_time_10_18),
                np.mean(screen_time_25_35),
                np.mean(screen_time_35_50)]
 
-plt.bar(x, mean_values, color=['blue', 'green', 'orange', 'red'], alpha=0.7)
+plt.bar(x, mean_values, color=['blue','orange', 'green', 'red'], alpha=0.7)
 plt.xticks(x, age_groups)
 plt.ylabel("Average Screen Time (arbitrary units)")
 plt.title("Average Screen Time Across Age Groups")
